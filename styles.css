@@ -6,8 +6,8 @@ html, body, h1, h2, p, ul, li {
 
 /* Apply a basic page background color and font style */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #daffcd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(32, 86%, 49%);
     color: #000000;
     line-height: 1.6;
     margin: 0;
@@ -16,10 +16,11 @@ body {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #e27b0e;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 1em 1em;
+    text-shadow: 2px 2px blueviolet;
 }
 
 /* Style the navigation menu */
@@ -28,6 +29,10 @@ nav ul {
     text-align: left;
     background-color: #444;
     padding: 1em 1em;
+    border-bottom: blueviolet solid;
+    border-top: blueviolet solid;
+    border-left: blueviolet solid;
+    border-right: blueviolet solid;
 }
 
 nav li {
